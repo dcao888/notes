@@ -5,7 +5,7 @@ We begin by studying the various aspects of reinforcement learning through a sim
 ## 2.1 &ensp; A $k$-armed Bandit Problem
 
 > *$k$-armed Bandit:*
-Consider a slot machine with $k$ levers, each with payout that is randomly drawn from a respective $\NN (\mu_i, 1)$ distribution for $i =1,...,k$. The objective is to maximize the expected total return over some time period, say $n=1000$ trials.
+Consider a slot machine with $k$ levers, each with payout that is randomly drawn from a respective $\NN (\mu_i, 1)$ distribution for $i =1,...,k$. The objective is to ,maximize the expected total return over some time period, say $n=1000$ trials.
 
 If the values of $\mu_i$ were known, the optimal solution is trivial by the *Strong Law of Large Numbers*: simply pick the lever with the largest expected payout (reward)
 
